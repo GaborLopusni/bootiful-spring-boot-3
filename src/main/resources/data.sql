@@ -1,0 +1,11 @@
+insert into customers(name) values ('Test1');
+insert into customers(name) values ('Test2');
+insert into customers(name) values ('Test3');
+insert into customers(name) values ('Test4');
+insert into customers(name) values ('Test5');
+insert into customers(name) values ('Test6');
+insert into customers(name) values ('Test7');
+insert into customers(name) values ('Test8');
+insert into customers(name) values ('Test9');
+insert into customers(name) values ('Test10');
+insert into customers(name) values ('Test11');
