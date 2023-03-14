@@ -20,13 +20,15 @@ public class CustomerService {
         this.template = template;
     }
 
-    Customer getById(Integer id) {
+    public Customer getById(Integer id) {
         return this.template.queryForObject("select * from customers where id = ?", customerRowMapper, id);
     }
 
-    Collection<Customer> getAll() {
+    public Collection<Customer> getAll() {
         return this.template.query("Select * from customers", customerRowMapper);
     }
 
-
+    public Customer getByName(String name) {
+        return this.template.queryForObject("select * from customers where name = ?", customerRowMapper, name);
+    }
 }
